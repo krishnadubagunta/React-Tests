@@ -2,6 +2,7 @@
   "name": "apreacttest",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://krishnadubagunta.github.io/React-Tests",
   "dependencies": {
     "axios": "^0.17.1",
     "gh-pages": "^1.1.0",
@@ -17,9 +18,9 @@
     "semantic-ui-react": "^0.77.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   }
 }
