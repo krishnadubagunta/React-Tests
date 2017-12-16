@@ -1,0 +1,11 @@
+export const banner = `${process.env.PUBLIC_URL}/images/banner.png`;
+export const onboarding = `${process.env.PUBLIC_URL}/images/onboarding-bg.png`;
+export const image1 = `${process.env.PUBLIC_URL}/images/1.png`;
+export const image2 = `${process.env.PUBLIC_URL}/images/2.png`;
+export const image3 = `${process.env.PUBLIC_URL}/images/3.png`;
+export const image4 = `${process.env.PUBLIC_URL}/images/4.png`;
+export const image5 = `${process.env.PUBLIC_URL}/images/5.png`;
+export const image6 = `${process.env.PUBLIC_URL}/images/6.png`;
+export const email = `${process.env.PUBLIC_URL}/icons/ic-email.png`;
+export const password = `${process.env.PUBLIC_URL}/icons/ic-password.png`;
+export const username = `${process.env.PUBLIC_URL}/icons/ic-username.png`;
